@@ -13,6 +13,11 @@ h2 ip route add default dev h2-eth0
 h3 ip route add default dev h3-eth0
 h4 ip route add default dev h4-eth0
 
+h1 ip route add r1 dev h1-eth0
+h2 ip route add r1 dev h2-eth0
+h3 ip route add r1 dev h3-eth0
+h4 ip route add r1 dev h4-eth0
+
 r1 ip route add h1 dev r1-eth1
 r1 ip route add h2 dev r1-eth2
 r1 ip route add h3 dev r1-eth3
